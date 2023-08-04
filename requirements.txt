@@ -1,0 +1,14 @@
+pandas
+streamlit
+numpy
+re
+matplotlib 
+sklearn
+category_encoders
+statsmodels.formula.api 
+seaborn
+sklearn.cluster 
+sklearn.preprocessing
+sklearn.metrics
+PIL
+tkinter
