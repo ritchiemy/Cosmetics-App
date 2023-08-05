@@ -29,7 +29,6 @@ image = Image.open('sephora.jpeg')
 st.sidebar.image(image, width= 200)
 st.sidebar.title("Navigation")
 navigation = st.sidebar.radio("navigation", label_visibility="hidden", options= ('🧼 Original Dataset', '💄 Linear Regression', '🧴 K-Means Clustering'))
-st.sidebar.button("Download Research Paper")
 k_df = df
 df = df.assign(Ingredients=df.Ingredients.str.split(',').explode('Ingredients'))
 df['Ingredients']= [re.sub(r'[\)\(]', '', str(x)) for x in df['Ingredients']]
