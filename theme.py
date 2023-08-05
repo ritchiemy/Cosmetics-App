@@ -4,6 +4,6 @@ def set_custom_theme(
   base="dark",
   primaryColor="#ff0000",
   secondaryBackgroundColor="#6b6b6b",
-  font="monospace")
+  font="monospace",)
 
 set_custom_theme()
