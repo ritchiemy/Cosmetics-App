@@ -9,5 +9,4 @@ dependencies:
   - statsmodels
   - seaborn
   - pillow
-  - tkinter
   - streamlit
