@@ -13,7 +13,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn import datasets
 from sklearn.metrics import silhouette_score 
 from PIL import Image
-import tkinter
 import matplotlib.backends.backend_tkagg
 from theme import set_custom_theme
 
