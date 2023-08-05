@@ -3,12 +3,9 @@ streamlit
 numpy
 re
 matplotlib 
-sklearn
+scikit-learn
 category_encoders
-statsmodels.formula.api 
+statsmodels
 seaborn
-sklearn.cluster 
-sklearn.preprocessing
-sklearn.metrics
 PIL
 tkinter
