@@ -16,6 +16,9 @@ from sklearn.metrics import silhouette_score
 from PIL import Image
 import tkinter
 import matplotlib.backends.backend_tkagg
+from theme import set_custom_theme
+
+set_custom_theme
 
 #read in data
 df= pd.read_excel('cosmetics.xlsx')
