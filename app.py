@@ -8,6 +8,7 @@ import category_encoders as ce
 import statsmodels.formula.api as smf
 import statsmodels.api as sm
 import seaborn as sns
+import re
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn import datasets
