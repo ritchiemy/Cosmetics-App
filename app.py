@@ -13,9 +13,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn import datasets
 from sklearn.metrics import silhouette_score 
 from PIL import Image
-from theme import set_custom_theme
 
-set_custom_theme
 
 #read in data
 df= pd.read_excel('cosmetics.xlsx')
