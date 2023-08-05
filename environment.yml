@@ -10,3 +10,4 @@ dependencies:
   - seaborn
   - pillow
   - streamlit
+  - openyxl
