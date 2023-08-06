@@ -22,7 +22,7 @@ df= pd.read_excel('cosmetics.xlsx')
 #App Interface
 st.title("💄 Visualizing the Sephora Dataset")
 st.write("This app pairs with a research paper analyzing recent trends in specialty beauty cosmetics.  Check out the research paper at https://github.com/ritchiemy/Cosmetics-App.")
-st.write("Navigate the app by opening the sidebar (arrow on left corner) and interacting with widgets.")
+st.write("Navigate the app by opening the sidebar (arrow on left corner) and selecting a page.  Widgets are interactive (try sorting datarames by clicking!).")
 st.write("The dataset includes product name, brand, type, price, review rating (rank), target skin type, and ingredients lists for 1472 cosmetics found from Sephora via word embedding.")
 st.markdown("Visit the original dataset at: https://www.kaggle.com/datasets/kingabzpro/cosmetics-datasets")
 image = Image.open('sephora.jpeg')
